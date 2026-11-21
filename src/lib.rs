@@ -4,6 +4,9 @@
 //! Real implementation: fscks, events, validation, deterministic storage.
 //! Replaces the placeholder stub.
 
+/// Scheduled filesystem check module.
+pub mod sigmascheduledfsck;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
