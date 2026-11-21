@@ -7,6 +7,9 @@
 /// Scheduled filesystem check module.
 pub mod sigmascheduledfsck;
 
+/// Filesystem check/repair: integrity verification, error detection.
+pub mod sigmafsck;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
